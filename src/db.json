@@ -1,0 +1,40 @@
+{
+  "seller": [
+    {
+      "id": "0a3f",
+      "name": "Sudhee Kumar",
+      "email": "email.example.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "17dd",
+      "name": "Sudhee Kumar",
+      "email": "email.example.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "c963",
+      "name": "Sudheer",
+      "password": "abc@123",
+      "email": "User@example.com"
+    },
+    {
+      "id": "f2c4",
+      "name": "Sudheer",
+      "password": "abc@123",
+      "email": "User@example.com"
+    },
+    {
+      "id": "ed70",
+      "name": "User One",
+      "password": "User@123",
+      "email": "UserOne@example.com"
+    },
+    {
+      "id": "cb15",
+      "name": "User Two",
+      "password": "User@123",
+      "email": "UserTwo@example.com"
+    }
+  ]
+}
