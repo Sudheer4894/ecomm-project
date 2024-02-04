@@ -92,8 +92,8 @@
       "price": "100000",
       "color": "white",
       "category": "mobiles",
-      "desciption": "Product Description is very good.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FApple-iPhone-14-512GB-Midnight%2Fdp%2FB0BDJGX2XZ&psig=AOvVaw3O4C9epP9HtYRdXPGqsUdj&ust=1707117837112000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDSsNSTkYQDFQAAAAAdAAAAABAH"
+      "description": "Product Description is very good.",
+      "image": "/home/hp/Downloads/Raksha Bandhan.png"
     },
     {
       "id": "bedd",
