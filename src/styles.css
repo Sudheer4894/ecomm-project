@@ -27,3 +27,19 @@ body{
   border: 1px solid blueviolet;
   cursor: pointer;
 }
+
+.error-msg{
+  text-align: center;
+  color: red;
+  font-size: 12px;
+}
+
+.success-message{
+  color: green;
+  text-align: center;
+  font-size: 12px;
+}
+h1{
+  text-align: center;
+  color: blueviolet;
+}
