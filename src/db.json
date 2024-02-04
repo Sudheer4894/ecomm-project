@@ -85,33 +85,5 @@
       "password": "abc@123"
     }
   ],
-  "products": [
-    {
-      "id": "d212",
-      "name": "I Phone 14",
-      "price": "100000",
-      "color": "white",
-      "category": "mobiles",
-      "description": "Product Description is very good.",
-      "image": "/home/hp/Downloads/Raksha Bandhan.png"
-    },
-    {
-      "id": "bedd",
-      "name": "samsung M40",
-      "price": "25000",
-      "color": "black",
-      "category": "Mobile",
-      "description": "THis is good product",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FApple-iPhone-14-512GB-Midnight%2Fdp%2FB0BDJGX2XZ&psig=AOvVaw3O4C9epP9HtYRdXPGqsUdj&ust=1707117837112000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDSsNSTkYQDFQAAAAAdAAAAABAH"
-    },
-    {
-      "id": "4333",
-      "name": "I Phone 14",
-      "price": "100000",
-      "color": "grey",
-      "category": "Mobiles",
-      "description": "This apple Phone",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FApple-iPhone-14-512GB-Midnight%2Fdp%2FB0BDJGX2XZ&psig=AOvVaw3O4C9epP9HtYRdXPGqsUdj&ust=1707117837112000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDSsNSTkYQDFQAAAAAdAAAAABAH"
-    }
-  ]
+  "products": []
 }
