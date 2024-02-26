@@ -11,6 +11,7 @@ import { Product } from '../data-type';
 export class HeaderComponent {
   menuType: string = 'default';
   sellerName: string = '';
+  userName: string = "";
   searchResult:undefined|Product[];
   constructor(private router: Router, private product: ProductService){}
 
@@ -21,12 +22,17 @@ export class HeaderComponent {
         if(localStorage.getItem('seller') && value.url.includes('seller')){
           // console.warn("In seller area ");
           this.menuType = 'seller';
-          if(localStorage.getItem('seller')){
-            let sellerStore = localStorage.getItem('seller');
-            let sellerData = sellerStore && JSON.parse(sellerStore)[0];
-            this.sellerName = sellerData.name;
-          }
-        }else {
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          this.sellerName = sellerData.name;
+        }
+        else if(localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
+          this.menuType = 'user';
+        }
+        else {
           // console.warn("Outside seller");
           this.menuType = 'default';
         }
@@ -37,6 +43,11 @@ export class HeaderComponent {
   logOut(){
     localStorage.removeItem('seller');
     this.router.navigate(['/']);
+  }
+
+  userLogout(){
+    localStorage.removeItem('user');
+    this.router.navigate(['/user-auth']);
   }
 
   searchProduct(query:KeyboardEvent){
@@ -55,5 +66,14 @@ export class HeaderComponent {
 
   hideSearch(){
     this.searchResult = undefined;
+  }
+
+  searchSubmit(searchValue:string){
+    console.log("Search Value:", searchValue);
+    this.router.navigate([`search/${searchValue}`]);
+  }
+
+  redirectTODetails(id:string){
+    this.router.navigate(['/details/'+id]);
   }
 }

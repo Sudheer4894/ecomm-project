@@ -1,0 +1,23 @@
+.user-auth{
+  margin-bottom: 100px;
+}
+
+.account-toggle{
+  margin-top: 20px;
+}
+
+.user-auth a{
+  color: blue;
+  cursor: pointer;
+}
+
+.invalid-input{
+  color: red;
+  font-size: 12px;
+  margin-top: -20px;
+  text-align: left;
+}
+
+button:disabled{
+  cursor: not-allowed;
+}

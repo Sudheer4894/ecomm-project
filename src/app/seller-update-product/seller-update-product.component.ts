@@ -18,7 +18,6 @@ export class SellerUpdateProductComponent {
 
   ngOnInit(){
     let productId = this.route.snapshot.paramMap.get('id');
-
     console.log("Hello Users",productId);
     productId && this.product.getProduct(productId).subscribe((data)=>{
       console.log(data);
